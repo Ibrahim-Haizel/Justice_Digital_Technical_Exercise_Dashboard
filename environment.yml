@@ -1,0 +1,6 @@
+name: justice_digital_dashboard
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - -r requirements.txt

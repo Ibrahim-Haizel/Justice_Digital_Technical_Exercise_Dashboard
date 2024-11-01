@@ -1,0 +1,35 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+plotly~=5.18.0
+pandas~=2.1.4
+dash~=2.14
+pytest==7.4.4
+pylint==3.0.3
+black==23.12.1
+black[jupyter]
+pyodbc==5.0.1
+numpy~=1.26.3
+dash[testing]
+chromedriver-autoinstaller
+sentry-sdk[flask]
+flatten_json
+python-dotenv
+coverage
+snakeviz
+playwright
+pytest-playwright
+pixelmatch
+locust~=2.20
+inflect~=7.0
+ipykernel~=6.28
+testfixtures~=7.2
+pillow~=10.2
+gov-uk-dashboards~=9.25.0
+uk-gov-dash-components~=1.25.0
+dash_svg~=0.0.12
+pytest-mock
+azure-storage-blob
+azure-identity
+postcodes_io_api
+dash-mantine-components~=0.12.1
