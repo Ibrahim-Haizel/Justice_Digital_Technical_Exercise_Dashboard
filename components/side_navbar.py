@@ -17,5 +17,5 @@ def side_navbar(
         className="moj-side-navigation" if "mobile" not in nav_id else "",
         role="navigation",
         id=nav_id,
-        style = {"width":"100%"}
+        style = {"width":"100%", 'margin-right': '60px'}
     )
