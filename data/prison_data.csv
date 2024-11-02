@@ -1,0 +1,241 @@
+year,month,prison_name,prison_region,prison_category,prison_gender,receptions,releases
+2022,January,HMP Fallfay,South East,B,Male,68,7
+2022,January,HMP Byhall,South East,C,Female,43,86
+2022,January,HMP Ostmont,South East,B,Male,49,46
+2022,January,HMP Pryham,South West,C,Male,62,54
+2022,January,HMP Freyhill,South West,A,Male,0,55
+2022,January,HMP Bushmere,South West,C,Female,56,95
+2022,January,HMP Corley,London,B,Male,59,95
+2022,January,HMP Esterbarrow,London,D,Male,35,88
+2022,January,HMP Linvale,East of England,C,Male,6,2
+2022,January,HMP Foxwick,East of England,C,Male,45,24
+2022,January,HMP Ormoor,East Midlands,B,Male,74,2
+2022,January,HMP Dorwald,East Midlands,B,Male,91,45
+2022,January,HMP Lorburn,West Midlands,B,Male,36,59
+2022,January,HMP Newcliff,West Midlands,A,Male,88,93
+2022,January,HMP Woodholt,Yorkshire and the Humber,B,Male,86,2
+2022,January,HMP Norwynne,Yorkshire and the Humber,C,Male,78,23
+2022,January,HMP Sprintfay,North West,D,Female,39,68
+2022,January,HMP Alddell,North West,D,Male,97,50
+2022,January,HMP Vertrose,North East,B,Male,12,47
+2022,January,HMP Dracfield,North East,C,Male,76,15
+2022,February,HMP Fallfay,South East,B,Male,46,21
+2022,February,HMP Byhall,South East,C,Female,69,15
+2022,February,HMP Ostmont,South East,B,Male,83,72
+2022,February,HMP Pryham,South West,C,Male,99,23
+2022,February,HMP Freyhill,South West,A,Male,44,85
+2022,February,HMP Bushmere,South West,C,Female,37,5
+2022,February,HMP Corley,London,B,Male,47,54
+2022,February,HMP Esterbarrow,London,D,Male,10,38
+2022,February,HMP Linvale,East of England,C,Male,85,99
+2022,February,HMP Foxwick,East of England,C,Male,87,72
+2022,February,HMP Ormoor,East Midlands,B,Male,60,86
+2022,February,HMP Dorwald,East Midlands,B,Male,55,100
+2022,February,HMP Lorburn,West Midlands,B,Male,67,26
+2022,February,HMP Newcliff,West Midlands,A,Male,23,26
+2022,February,HMP Woodholt,Yorkshire and the Humber,B,Male,33,95
+2022,February,HMP Norwynne,Yorkshire and the Humber,C,Male,70,81
+2022,February,HMP Sprintfay,North West,D,Female,67,97
+2022,February,HMP Alddell,North West,D,Male,15,86
+2022,February,HMP Vertrose,North East,B,Male,4,65
+2022,February,HMP Dracfield,North East,C,Male,66,31
+2022,March,HMP Fallfay,South East,B,Male,13,69
+2022,March,HMP Byhall,South East,C,Female,69,87
+2022,March,HMP Ostmont,South East,B,Male,57,22
+2022,March,HMP Pryham,South West,C,Male,90,99
+2022,March,HMP Freyhill,South West,A,Male,67,29
+2022,March,HMP Bushmere,South West,C,Female,3,8
+2022,March,HMP Corley,London,B,Male,68,53
+2022,March,HMP Esterbarrow,London,D,Male,77,28
+2022,March,HMP Linvale,East of England,C,Male,61,58
+2022,March,HMP Foxwick,East of England,C,Male,21,67
+2022,March,HMP Ormoor,East Midlands,B,Male,61,3
+2022,March,HMP Dorwald,East Midlands,B,Male,69,86
+2022,March,HMP Lorburn,West Midlands,B,Male,77,80
+2022,March,HMP Newcliff,West Midlands,A,Male,33,84
+2022,March,HMP Woodholt,Yorkshire and the Humber,B,Male,6,14
+2022,March,HMP Norwynne,Yorkshire and the Humber,C,Male,52,54
+2022,March,HMP Sprintfay,North West,D,Female,29,43
+2022,March,HMP Alddell,North West,D,Male,43,84
+2022,March,HMP Vertrose,North East,B,Male,53,78
+2022,March,HMP Dracfield,North East,C,Male,4,31
+2022,April,HMP Fallfay,South East,B,Male,43,0
+2022,April,HMP Byhall,South East,C,Female,98,46
+2022,April,HMP Ostmont,South East,B,Male,72,7
+2022,April,HMP Pryham,South West,C,Male,68,89
+2022,April,HMP Freyhill,South West,A,Male,61,79
+2022,April,HMP Bushmere,South West,C,Female,95,11
+2022,April,HMP Corley,London,B,Male,52,43
+2022,April,HMP Esterbarrow,London,D,Male,65,58
+2022,April,HMP Linvale,East of England,C,Male,8,56
+2022,April,HMP Foxwick,East of England,C,Male,44,59
+2022,April,HMP Ormoor,East Midlands,B,Male,52,60
+2022,April,HMP Dorwald,East Midlands,B,Male,96,93
+2022,April,HMP Lorburn,West Midlands,B,Male,30,47
+2022,April,HMP Newcliff,West Midlands,A,Male,39,70
+2022,April,HMP Woodholt,Yorkshire and the Humber,B,Male,38,88
+2022,April,HMP Norwynne,Yorkshire and the Humber,C,Male,74,55
+2022,April,HMP Sprintfay,North West,D,Female,7,97
+2022,April,HMP Alddell,North West,D,Male,79,31
+2022,April,HMP Vertrose,North East,B,Male,10,70
+2022,April,HMP Dracfield,North East,C,Male,77,34
+2022,May,HMP Fallfay,South East,B,Male,83,71
+2022,May,HMP Byhall,South East,C,Female,17,83
+2022,May,HMP Ostmont,South East,B,Male,11,18
+2022,May,HMP Pryham,South West,C,Male,75,11
+2022,May,HMP Freyhill,South West,A,Male,4,100
+2022,May,HMP Bushmere,South West,C,Female,23,65
+2022,May,HMP Corley,London,B,Male,70,7
+2022,May,HMP Esterbarrow,London,D,Male,44,59
+2022,May,HMP Linvale,East of England,C,Male,44,96
+2022,May,HMP Foxwick,East of England,C,Male,56,12
+2022,May,HMP Ormoor,East Midlands,B,Male,86,62
+2022,May,HMP Dorwald,East Midlands,B,Male,71,33
+2022,May,HMP Lorburn,West Midlands,B,Male,76,28
+2022,May,HMP Newcliff,West Midlands,A,Male,78,20
+2022,May,HMP Woodholt,Yorkshire and the Humber,B,Male,45,86
+2022,May,HMP Norwynne,Yorkshire and the Humber,C,Male,46,23
+2022,May,HMP Sprintfay,North West,D,Female,79,73
+2022,May,HMP Alddell,North West,D,Male,13,32
+2022,May,HMP Vertrose,North East,B,Male,53,35
+2022,May,HMP Dracfield,North East,C,Male,80,82
+2022,June,HMP Fallfay,South East,B,Male,65,99
+2022,June,HMP Byhall,South East,C,Female,32,8
+2022,June,HMP Ostmont,South East,B,Male,25,40
+2022,June,HMP Pryham,South West,C,Male,69,37
+2022,June,HMP Freyhill,South West,A,Male,84,82
+2022,June,HMP Bushmere,South West,C,Female,79,94
+2022,June,HMP Corley,London,B,Male,15,6
+2022,June,HMP Esterbarrow,London,D,Male,49,76
+2022,June,HMP Linvale,East of England,C,Male,68,47
+2022,June,HMP Foxwick,East of England,C,Male,14,35
+2022,June,HMP Ormoor,East Midlands,B,Male,34,8
+2022,June,HMP Dorwald,East Midlands,B,Male,59,66
+2022,June,HMP Lorburn,West Midlands,B,Male,33,55
+2022,June,HMP Newcliff,West Midlands,A,Male,75,95
+2022,June,HMP Woodholt,Yorkshire and the Humber,B,Male,53,0
+2022,June,HMP Norwynne,Yorkshire and the Humber,C,Male,2,49
+2022,June,HMP Sprintfay,North West,D,Female,24,38
+2022,June,HMP Alddell,North West,D,Male,82,71
+2022,June,HMP Vertrose,North East,B,Male,52,29
+2022,June,HMP Dracfield,North East,C,Male,0,94
+2022,July,HMP Fallfay,South East,B,Male,23,3
+2022,July,HMP Byhall,South East,C,Female,25,62
+2022,July,HMP Ostmont,South East,B,Male,83,25
+2022,July,HMP Pryham,South West,C,Male,34,42
+2022,July,HMP Freyhill,South West,A,Male,28,61
+2022,July,HMP Bushmere,South West,C,Female,0,8
+2022,July,HMP Corley,London,B,Male,65,92
+2022,July,HMP Esterbarrow,London,D,Male,3,53
+2022,July,HMP Linvale,East of England,C,Male,76,58
+2022,July,HMP Foxwick,East of England,C,Male,98,97
+2022,July,HMP Ormoor,East Midlands,B,Male,32,0
+2022,July,HMP Dorwald,East Midlands,B,Male,67,92
+2022,July,HMP Lorburn,West Midlands,B,Male,79,1
+2022,July,HMP Newcliff,West Midlands,A,Male,46,42
+2022,July,HMP Woodholt,Yorkshire and the Humber,B,Male,63,88
+2022,July,HMP Norwynne,Yorkshire and the Humber,C,Male,94,75
+2022,July,HMP Sprintfay,North West,D,Female,0,69
+2022,July,HMP Alddell,North West,D,Male,26,57
+2022,July,HMP Vertrose,North East,B,Male,18,43
+2022,July,HMP Dracfield,North East,C,Male,22,14
+2022,August,HMP Fallfay,South East,B,Male,34,85
+2022,August,HMP Byhall,South East,C,Female,41,72
+2022,August,HMP Ostmont,South East,B,Male,18,69
+2022,August,HMP Pryham,South West,C,Male,15,0
+2022,August,HMP Freyhill,South West,A,Male,35,31
+2022,August,HMP Bushmere,South West,C,Female,71,66
+2022,August,HMP Corley,London,B,Male,23,18
+2022,August,HMP Esterbarrow,London,D,Male,99,35
+2022,August,HMP Linvale,East of England,C,Male,40,33
+2022,August,HMP Foxwick,East of England,C,Male,6,22
+2022,August,HMP Ormoor,East Midlands,B,Male,15,14
+2022,August,HMP Dorwald,East Midlands,B,Male,0,69
+2022,August,HMP Lorburn,West Midlands,B,Male,92,29
+2022,August,HMP Newcliff,West Midlands,A,Male,82,73
+2022,August,HMP Woodholt,Yorkshire and the Humber,B,Male,85,77
+2022,August,HMP Norwynne,Yorkshire and the Humber,C,Male,37,77
+2022,August,HMP Sprintfay,North West,D,Female,46,80
+2022,August,HMP Alddell,North West,D,Male,81,34
+2022,August,HMP Vertrose,North East,B,Male,99,37
+2022,August,HMP Dracfield,North East,C,Male,44,76
+2022,September,HMP Fallfay,South East,B,Male,0,20
+2022,September,HMP Byhall,South East,C,Female,63,5
+2022,September,HMP Ostmont,South East,B,Male,70,30
+2022,September,HMP Pryham,South West,C,Male,13,28
+2022,September,HMP Freyhill,South West,A,Male,39,22
+2022,September,HMP Bushmere,South West,C,Female,59,47
+2022,September,HMP Corley,London,B,Male,75,99
+2022,September,HMP Esterbarrow,London,D,Male,98,56
+2022,September,HMP Linvale,East of England,C,Male,17,91
+2022,September,HMP Foxwick,East of England,C,Male,52,96
+2022,September,HMP Ormoor,East Midlands,B,Male,81,22
+2022,September,HMP Dorwald,East Midlands,B,Male,8,57
+2022,September,HMP Lorburn,West Midlands,B,Male,42,33
+2022,September,HMP Newcliff,West Midlands,A,Male,31,11
+2022,September,HMP Woodholt,Yorkshire and the Humber,B,Male,83,21
+2022,September,HMP Norwynne,Yorkshire and the Humber,C,Male,89,43
+2022,September,HMP Sprintfay,North West,D,Female,35,63
+2022,September,HMP Alddell,North West,D,Male,73,60
+2022,September,HMP Vertrose,North East,B,Male,11,35
+2022,September,HMP Dracfield,North East,C,Male,32,13
+2022,October,HMP Fallfay,South East,B,Male,62,39
+2022,October,HMP Byhall,South East,C,Female,35,74
+2022,October,HMP Ostmont,South East,B,Male,14,0
+2022,October,HMP Pryham,South West,C,Male,98,9
+2022,October,HMP Freyhill,South West,A,Male,25,43
+2022,October,HMP Bushmere,South West,C,Female,22,72
+2022,October,HMP Corley,London,B,Male,66,92
+2022,October,HMP Esterbarrow,London,D,Male,100,79
+2022,October,HMP Linvale,East of England,C,Male,100,32
+2022,October,HMP Foxwick,East of England,C,Male,53,36
+2022,October,HMP Ormoor,East Midlands,B,Male,46,59
+2022,October,HMP Dorwald,East Midlands,B,Male,65,84
+2022,October,HMP Lorburn,West Midlands,B,Male,89,23
+2022,October,HMP Newcliff,West Midlands,A,Male,84,51
+2022,October,HMP Woodholt,Yorkshire and the Humber,B,Male,97,74
+2022,October,HMP Norwynne,Yorkshire and the Humber,C,Male,94,23
+2022,October,HMP Sprintfay,North West,D,Female,34,100
+2022,October,HMP Alddell,North West,D,Male,2,86
+2022,October,HMP Vertrose,North East,B,Male,21,100
+2022,October,HMP Dracfield,North East,C,Male,21,0
+2022,November,HMP Fallfay,South East,B,Male,99,81
+2022,November,HMP Byhall,South East,C,Female,3,62
+2022,November,HMP Ostmont,South East,B,Male,31,66
+2022,November,HMP Pryham,South West,C,Male,56,82
+2022,November,HMP Freyhill,South West,A,Male,60,65
+2022,November,HMP Bushmere,South West,C,Female,26,22
+2022,November,HMP Corley,London,B,Male,0,51
+2022,November,HMP Esterbarrow,London,D,Male,39,38
+2022,November,HMP Linvale,East of England,C,Male,63,48
+2022,November,HMP Foxwick,East of England,C,Male,63,4
+2022,November,HMP Ormoor,East Midlands,B,Male,86,73
+2022,November,HMP Dorwald,East Midlands,B,Male,98,77
+2022,November,HMP Lorburn,West Midlands,B,Male,29,83
+2022,November,HMP Newcliff,West Midlands,A,Male,66,69
+2022,November,HMP Woodholt,Yorkshire and the Humber,B,Male,42,13
+2022,November,HMP Norwynne,Yorkshire and the Humber,C,Male,67,42
+2022,November,HMP Sprintfay,North West,D,Female,40,38
+2022,November,HMP Alddell,North West,D,Male,12,17
+2022,November,HMP Vertrose,North East,B,Male,92,0
+2022,November,HMP Dracfield,North East,C,Male,11,40
+2022,December,HMP Fallfay,South East,B,Male,36,26
+2022,December,HMP Byhall,South East,C,Female,63,10
+2022,December,HMP Ostmont,South East,B,Male,11,35
+2022,December,HMP Pryham,South West,C,Male,91,29
+2022,December,HMP Freyhill,South West,A,Male,81,55
+2022,December,HMP Bushmere,South West,C,Female,84,44
+2022,December,HMP Corley,London,B,Male,82,74
+2022,December,HMP Esterbarrow,London,D,Male,35,0
+2022,December,HMP Linvale,East of England,C,Male,39,71
+2022,December,HMP Foxwick,East of England,C,Male,50,3
+2022,December,HMP Ormoor,East Midlands,B,Male,20,90
+2022,December,HMP Dorwald,East Midlands,B,Male,24,43
+2022,December,HMP Lorburn,West Midlands,B,Male,88,9
+2022,December,HMP Newcliff,West Midlands,A,Male,77,37
+2022,December,HMP Woodholt,Yorkshire and the Humber,B,Male,19,44
+2022,December,HMP Norwynne,Yorkshire and the Humber,C,Male,0,56
+2022,December,HMP Sprintfay,North West,D,Female,8,52
+2022,December,HMP Alddell,North West,D,Male,7,66
+2022,December,HMP Vertrose,North East,B,Male,31,34
+2022,December,HMP Dracfield,North East,C,Male,42,96
