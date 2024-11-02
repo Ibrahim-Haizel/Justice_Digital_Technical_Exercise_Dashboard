@@ -18,7 +18,7 @@ layout = html.Div([
     html.H1('Data Details'),
     html.Div([
         html.Div([
-            html.Label('Filter by Prison Region:'),
+            html.Label('Filter by Prison Region [Optional]:', className='govuk-label'),
             dcc.Dropdown(
                 id='region-filter',
                 options=prison_regions,
@@ -27,7 +27,7 @@ layout = html.Div([
             ),
         ], style={'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top'}),
         html.Div([
-            html.Label('Filter by Prison Category:'),
+            html.Label('Filter by Prison Category [Optional]:', className='govuk-label'),
             dcc.Dropdown(
                 id='category-filter',
                 options=prison_categories,
@@ -36,7 +36,7 @@ layout = html.Div([
             ),
         ], style={'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '2%'}),
         html.Div([
-            html.Label('Filter by Prison Gender:'),
+            html.Label('Filter by Prison Gender [Optional]:', className='govuk-label'),
             dcc.Dropdown(
                 id='gender-filter',
                 options=prison_genders,
