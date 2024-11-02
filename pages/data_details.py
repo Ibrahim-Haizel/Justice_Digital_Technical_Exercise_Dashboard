@@ -46,7 +46,7 @@ layout = html.Div([
         ], style={'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '2%'}),
     ], style={'marginBottom': '20px'}),
     html.Div(
-        id='data-table-container'
+        id='data-table-container', style={'width': '1200px'}
     )
 ])
 
