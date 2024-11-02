@@ -1,4 +1,4 @@
-import dash_table
+from dash import dash_table
 import pandas as pd
 
 # Load your data
@@ -26,9 +26,24 @@ def create_data_table(data):
         filter_action='native', # Enables filtering on all columns
         page_size=20,           # Number of rows per page
         style_table={'overflowX': 'auto'},
+        style_as_list_view=True,  # Remove grid lines to match GDS table
         style_cell={
-            'minWidth': '150px', 'width': '150px', 'maxWidth': '150px',
-            'whiteSpace': 'normal'
+            'padding': '8px',
+            'fontSize': '16px',
+            'fontFamily': '"GDS Transport", Arial, sans-serif',
+            'textAlign': 'left',
+            'minWidth': '100px', 'width': '150px', 'maxWidth': '200px',
+            'whiteSpace': 'normal',
+            'border': '1px solid #bfc1c3',
+        },
+        style_header={
+            'backgroundColor': '#f3f2f1',
+            'fontWeight': 'bold',
+            'fontSize': '16px',
+            'border': '1px solid #bfc1c3',
+        },
+        style_data={
+            'border': '1px solid #bfc1c3',
         },
     )
 
