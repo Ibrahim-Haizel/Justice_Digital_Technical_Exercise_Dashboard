@@ -7,6 +7,7 @@ from figures.receptions_releases_line_chart import create_receptions_releases_ch
 from figures.receptions_releases_stacked_bar_chart import create_stacked_bar_chart
 
 from uk_gov_dash_components.Dropdown import Dropdown
+import dash_oflog_components as doc
 
 dash.register_page(__name__, path='/overview', order=1)
 
@@ -44,17 +45,15 @@ layout = html.Div([
             dcc.Graph(id='receptions-releases-chart'), style={'width': '900px'}
         )
     ], style={'width': '100%'}),
-    html.Div([ 
-        html.Label('Select Category Grouping Field [for charts below]:', className = "govuk-label"), # Add the grouping field selection
-        dcc.RadioItems(
-            id='group-field-radio',
+    html.Div([
+        html.Label('Select Category Grouping Field [for charts below]:', className="govuk-label"),  # Add the grouping field selection
+        doc.RadioButton(
+            id='group-field-radio',  # Make sure this ID matches with the State in your callback
+            defaultValue='prison_region',
             options=group_field_options,
-            value='prison_region',  # Default value
-            labelStyle={'display': 'inline-block', 'margin-right': '10px'}
         ),
         html.H1('Receptions Breakdown by Category'),
-
-        ]),
+    ]),
         dcc.Graph(id='receptions-chart'),
         html.H1('Releases Breakdown by Category'),
         dcc.Graph(id='releases-chart')], style={'width': '100%'})
