@@ -1,31 +1,3 @@
-# # In chart_functions.py (or in the same file if you prefer)
-# import plotly.express as px
-
-# def create_receptions_releases_chart(filtered_data, selected_prison, months_order):
-#     # Group data by 'month' and sum 'receptions' and 'releases'
-#     grouped = filtered_data.groupby('month').agg({'receptions': 'sum', 'releases': 'sum'}).reset_index()
-    
-#     # Melt the DataFrame for plotting
-#     melted = grouped.melt(id_vars='month', value_vars=['receptions', 'releases'],
-#                           var_name='Type', value_name='Count')
-    
-#     # Create the line chart
-#     fig = px.line(melted, x='month', y='Count', color='Type', markers=True,
-#                   title=f'Number of Receptions and Releases by Month ({selected_prison})')
-    
-#     # Update layout for better readability
-#     fig.update_layout(
-#         autosize=True,
-#         width=None,
-#         height=None,
-#         xaxis_title='Month',
-#         yaxis_title='Number',
-#         legend_title='Category',
-#         xaxis={'categoryorder':'array', 'categoryarray': months_order}
-#     )
-    
-#     return fig
-
 import plotly.express as px
 
 def create_receptions_releases_chart(filtered_data, selected_prison, months_order):
