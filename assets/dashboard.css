@@ -8331,3 +8331,102 @@ mark.expenditure {
   font-size: 20px;
   font-family: Arial, sans-serif;
 }
+
+
+/* Root color variables */
+:root {
+  --ons-color-hero-bg: #005ea5; /* Example background blue */
+  --ons-color-hero-bg-dark: #005ea5; /* Darker shade for hero background */
+  --ons-color-text-inverse: white; /* Text color on dark background */
+  --ons-color-text-inverse-link-hover: #cce6ff; /* Link hover color */
+}
+
+/* Hero Section */
+
+/* General Hero Section styling */
+.ons-hero {
+  background-color: var(--ons-color-hero-bg);
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.ons-hero--dark {
+  background-color: var(--ons-color-hero-bg-dark);
+}
+
+/* Hero Container */
+.ons-hero__container {
+  align-items: center;
+  display: flex;
+  min-height: 200px; /* Reduce min-height */
+  position: relative;
+}
+
+.ons-hero__container--has-button {
+  padding: 2rem 1rem; /* Smaller padding when button is present */
+}
+
+.ons-hero__container--no-button {
+  padding: 3rem 1rem; /* Smaller padding when button is absent */
+}
+
+/* Text and Title styling */
+.ons-hero__title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 0 0.5rem 0; /* Smaller margin below title */
+  color: var(--ons-color-text-inverse);
+}
+
+.ons-hero__text {
+  font-size: 1rem;
+  margin-bottom: 1rem; /* Smaller margin below text */
+  color: var(--ons-color-text-inverse);
+}
+
+/* Button Styling */
+.ons-btn {
+  background-color: transparent;
+  color: var(--ons-color-text-inverse);
+  border: 1px solid var(--ons-color-text-inverse);
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.25rem;
+}
+
+.ons-btn--ghost:hover {
+  background-color: #003778;
+}
+
+.ons-btn__inner {
+  display: flex;
+  align-items: center;
+}
+
+.ons-btn__text {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+/* Icon Styling */
+.ons-icon.ons-u-ml-2xs {
+  margin-left: 0.5rem;
+  fill: currentColor; /* Ensures icon color matches text */
+}
+
+/* Link Styling */
+.ons-hero--dark .ons-hero__details a {
+  color: var(--ons-color-text-inverse);
+  text-decoration: none;
+}
+
+.ons-hero--dark .ons-hero__details a:hover {
+  color: var(--ons-color-text-inverse-link-hover);
+  text-decoration-thickness: 2px;
+}

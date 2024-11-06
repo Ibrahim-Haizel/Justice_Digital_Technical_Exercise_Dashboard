@@ -42,7 +42,7 @@ layout = html.Div([
             )
         ]),
         html.Div(
-            dcc.Graph(id='receptions-releases-chart'), style={'width': '900px'}
+            dcc.Graph(id='receptions-releases-chart'), style={'width': '100%'}
         )
     ], style={'width': '100%'}),
     html.Div([

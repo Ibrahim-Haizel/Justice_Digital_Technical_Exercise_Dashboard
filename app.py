@@ -88,8 +88,11 @@ layout = html.Div(
                         html.Div(
                             id="container_navbar_placeholder",
                         ),
-                        dash.page_container,
-                        html.Div(id="page-content", style={"width": "100%"}),
+                        html.Div( # Main content
+                            children=dash.page_container,
+                            id="page-content",
+                            style={"width": "100%"}
+                        ),
                     ],
                     className="govuk-main-wrapper--auto-spacing govuk-!-padding-top-2",
                     style={"display": "flex", "flex-direction": "row"},
