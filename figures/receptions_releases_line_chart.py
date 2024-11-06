@@ -14,7 +14,7 @@ def create_receptions_releases_chart(filtered_data, selected_prison, months_orde
     # Create the line chart
     fig = px.line(melted, x='month', y='Count', color='Type', markers=True,
                   title=f'Number of Receptions and Releases by Month ({selected_prison})',
-                  color_discrete_sequence= custom_palette) #['#636EFA', '#EF553B'])  # Modern color palette
+                  color_discrete_sequence= custom_palette) 
     
     # Update layout for a clean look
     fig.update_layout(
