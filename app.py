@@ -2,10 +2,8 @@ import os
 import dash
 from dash import Dash, html, dcc, Input, Output
 
-
 from gov_uk_dashboards.lib.logging import configure_logging
 from gov_uk_dashboards.lib.http_headers import setup_application_http_response_headers
-
 
 from gov_uk_dashboards.template import read_template
 from uk_gov_dash_components.ChangeLogBanner import ChangeLogBanner
@@ -13,7 +11,7 @@ from uk_gov_dash_components.ChangeLogBanner import ChangeLogBanner
 from gov_uk_dashboards.components.plotly.phase_banner import phase_banner_with_feedback
 from gov_uk_dashboards.components.plotly.footer import footer
 
-from components.side_navbar import side_navbar
+from components.side_navbar import side_navbar, side_navbar_link, side_navbar_link_active
 from components.header import header
 
 app = dash.Dash(__name__, update_title=None, use_pages=True)
@@ -126,22 +124,28 @@ server = app.server
     [Input("url", "pathname")]
 )
 def update_navbars(pathname):
+    # Normalize the pathname by removing trailing slashes
+    normalized_pathname = pathname.rstrip('/')
+
     # Get nav links from the page registry
-    nav_links = [
-        html.Li(
-            html.A(
-                page["name"],
-                href=page["path"],
-                className="moj-side-navigation__link",
-            ),
-            className="moj-side-navigation__item"
-        )
-        for page in dash.page_registry.values()
-    ]
+    nav_links = []
+    for page in dash.page_registry.values():
+        page_path = page["path"].rstrip('/')
+        if page_path == normalized_pathname:
+            nav_links.append(side_navbar_link_active(page["name"], page["path"]))
+        else:
+            nav_links.append(side_navbar_link(page["name"], page["path"]))
 
     # Create mobile and container navbar components
-    mobile_nav = side_navbar(nav_links, identifier="mobile-navigation-items", nav_id="mobile-nav-section")
-    container_nav = side_navbar(nav_links, identifier="navigation-items")
+    mobile_nav = side_navbar(
+        nav_links,
+        identifier="mobile-navigation-items",
+        nav_id="mobile-nav-section"
+    )
+    container_nav = side_navbar(
+        nav_links,
+        identifier="navigation-items"
+    )
 
     return mobile_nav, container_nav
 
