@@ -85,6 +85,7 @@ layout = html.Div(
                         dcc.Location(id="url", refresh=False),
                         html.Div(
                             id="container_navbar_placeholder",
+                            style={"margin-right": "20px"}
                         ),
                         html.Div( # Main content
                             children=dash.page_container,
