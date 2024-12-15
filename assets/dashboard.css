@@ -8332,6 +8332,14 @@ mark.expenditure {
   font-family: Arial, sans-serif;
 }
 
+a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #fd0 !important;
+  outline: #1d70b8 solid 2px !important;
+  /* border-bottom-color: transparent !important; */
+  box-shadow: unset !important;
+  text-decoration: none !important;
+  color: black;
+}
 
 /* Root color variables */
 :root {
