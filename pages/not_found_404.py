@@ -17,7 +17,7 @@ layout = html.Div([
                 html.P(
                     [
                         "If the web address is correct or you selected a link or button, try refreshing the page, or going back to ",
-                        html.A("the dashboard homepage", href="/home", className="govuk-link"),
+                        html.A("Return to dashboard home", href="/", className="govuk-link"),
                         "."
                     ],
                     className="govuk-body",
