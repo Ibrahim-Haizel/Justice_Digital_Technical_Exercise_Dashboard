@@ -2,7 +2,7 @@ import plotly.express as px
 
 def create_stacked_bar_chart(filtered_data, group_field, months_order, y_column, title):
     # Group data by month and the selected group_field, summing the y_column
-    grouped = filtered_data.groupby(['month', group_field])[y_column].sum().reset_index()
+    grouped = filtered_data.groupby(['month', group_field], observed=True)[y_column].sum().reset_index()
 
     #Use custom color palette for color blind friendly colors
     custom_palette = px.colors.qualitative.Set3
