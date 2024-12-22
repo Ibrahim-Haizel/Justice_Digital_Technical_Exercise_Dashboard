@@ -14,7 +14,11 @@ from gov_uk_dashboards.components.plotly.footer import footer
 from components.side_navbar import side_navbar, side_navbar_link, side_navbar_link_active
 from components.header import header
 
-app = dash.Dash(__name__, update_title=None, use_pages=True)
+app = Dash(
+    __name__, 
+    use_pages=True,  
+    update_title=None,
+)
 
 # from constants import EMAIL_ADDRESS
 
@@ -115,7 +119,6 @@ app.config.suppress_callback_exceptions = True
 app.index_string = read_template()
 server = app.server
 
-
 # Callback to update navigation sections
 @app.callback(
     [
@@ -128,9 +131,13 @@ def update_navbars(pathname):
     # Normalize the pathname by removing trailing slashes
     normalized_pathname = pathname.rstrip('/')
 
-    # Get nav links from the page registry
+    # Get nav links from the page registry, excluding the not_found_404 page
     nav_links = []
     for page in dash.page_registry.values():
+        # Skip the not_found_404 page
+        if page["module"] == "pages.not_found_404":
+            continue
+            
         page_path = page["path"].rstrip('/')
         if page_path == normalized_pathname:
             nav_links.append(side_navbar_link_active(page["name"], page["path"]))
